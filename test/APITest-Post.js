@@ -1,9 +1,9 @@
 import supertest from 'supertest';
 import { expect } from 'chai';
 const request = supertest('https://gorest.co.in/public/')
-const TOKEN = '527246668dcc146507572d9f41a43963bf066f080f8b7fea9c9b2b989d040d6b';
+const TOKEN = '630c66f7ad21c572f05cee992e95a8f2b549ed2e7432da9d53de4927546cb2dd';
 
-describe('API - users', () => {
+describe('Post - users', () => {
     it('POST request test', () => {
         const data= {
             name: 'Mounica Gupta',
