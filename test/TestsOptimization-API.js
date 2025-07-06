@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import request from '../config/CommonConfig.js';
 const TOKEN = '630c66f7ad21c572f05cee992e95a8f2b549ed2e7432da9d53de4927546cb2dd';
 
-xdescribe('API Test Users-Test Optimization', () => {
+describe('API Test Users-Test Optimization', () => {
     let userID;
     describe('POST - Users', () => {
         it('Post request test/ Creating Newuser', () => {
